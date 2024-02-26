@@ -121,7 +121,7 @@ def start_calculation():
         # asks users if they want to save data in memory
         memory_operation = input("Do you want to store the result in memory? (M+/M-): ").lower()
         if memory_operation == 'm+':
-            memory += result
+            memory = result
 
         # asks users if they want to calculate another thing or make other actions
         another_calculation = input("Do you want to perform another calculation? (Yes/No): ").lower()
